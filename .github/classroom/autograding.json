@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Random Genome",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testCases/test_RandomGenome.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Make Population",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testCases/test_makePopulation.py   ",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Fitness",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testCases/test_fitness.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Evaluate Fitness",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testCases/test_evaluateFitness.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Crossover",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testCases/test_crossover.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Mutate",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testCases/test_mutate.py  ",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Select Pair",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testCases/test_selectPair.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
